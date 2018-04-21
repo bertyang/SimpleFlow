@@ -1,0 +1,214 @@
+﻿body 
+{
+	font-size:8pt;
+	font-family:Arial;
+	margin:0;
+	padding:0;
+	color:#3D3D3D;
+}
+
+.LabelGeneral
+{
+	font-size: 8pt;	
+	color: #3D3D3D; 	
+	font-family:Arial;
+	white-space:normal;
+}
+
+
+.LabelTitle
+{
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 18px;
+	COLOR: #2e2e2e;
+	LINE-HEIGHT: 155%;
+	FONT-FAMILY: Arial, Verdana, PMingLiu, taipei; 
+	TEXT-DECORATION: none
+}
+
+.LabelSubTitle
+{
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 12px; 
+	COLOR: #2e2e2e; 
+	LINE-HEIGHT: 160%; 
+	FONT-FAMILY: Arial, Verdana, PMingLiu, taipei; 
+	TEXT-DECORATION: none
+}
+
+.LinkPath
+{
+	FONT-SIZE: 12px; COLOR: #969494; LINE-HEIGHT: 155%; FONT-STYLE: normal; FONT-FAMILY: Arial, Verdana, PMingLiu, taipei; 
+}
+.LinkPath A:link 
+{
+	COLOR: #969494; TEXT-DECORATION: underline
+}
+.LinkPath A:visited 
+{
+	COLOR: #666666;
+	TEXT-DECORATION: underline
+}
+.LinkPath A:hover 
+{
+	COLOR: #fe4005; TEXT-DECORATION: none
+}
+
+.TextBoxGeneral
+{
+	height:15px;	
+    font-size: 8pt;	
+	color:#000000;		
+    border:1px;
+	border-style:solid;
+    border-color:#C7C7C7; 
+	margin-left:10px;
+	margin-top:1px;
+	margin-bottom:1px;
+    padding-top:1px;
+    font-family:Arial;
+}
+
+.TextBoxGrid
+{
+	height:15px;	
+    font-size: 8pt;	
+	color:#000000;		
+    border:1px;
+	border-style:solid;
+    border-color:#C7C7C7; 
+    font-family:Arial;
+}
+
+.TextBoxLine
+{
+	height:15px;	
+    font-size: 8pt;	
+	color:#000000;		
+    border-top: #FFFFFF 0px solid; 
+	border-bottom: #C7C7C7 1px solid; 
+	border-left: #FFFFFF 0px solid; 
+	border-right:#FFFFFF 0px solid;
+	border-style:solid;
+    border-color:#C7C7C7; 
+	margin-left:10px;
+	margin-top:1px;
+	margin-bottom:1px;
+    padding-top:1px;
+    font-family:Arial;
+}
+
+.DropDownListGeneral
+{
+	height:25px;	
+    font-size: 8pt;	
+	color:#000000;		
+    border:1px;
+	border-style:solid;
+    border-color:#C7C7C7; 
+	margin-left:10px;	
+	margin-top:1px;
+	margin-bottom:2px;
+    padding-top:3px;
+    font-family:Arial;
+}
+
+.DropDownListGrid
+{
+	height:19px;	
+    font-size: 8pt;	
+	color:#000000;		
+    border:1px;
+	border-style:solid;
+    border-color:#C7C7C7; 
+	margin-top:1px;
+	margin-bottom:2px;
+    padding-top:3px;
+    font-family:Arial;
+}
+
+.CheckBoxGeneral
+{
+	font-size: 8pt;	
+	color:#3D3D3D;		
+    border:0px;
+	border-style:solid;
+	margin-left:6px;
+    border-color:#C7C7C7; 
+    font-family:Arial;
+}
+
+.CheckBoxGrid
+{
+	font-size: 8pt;	
+	color:#3D3D3D;		
+    border:0px;
+	border-style:solid;
+    border-color:#C7C7C7; 
+    font-family:Arial;
+}
+
+.ButtonGeneral
+{
+	background-image: url(Images/Button_BG_060.gif);
+	background-repeat: no-repeat;
+	width:60px;
+	height:20px;
+	font-size: 8pt;	
+	color:#000000; 
+	font-weight:bold;
+	border:none;
+	font-family:Arial;
+	cursor:hand;
+	padding-top:1px;
+	padding-bottom:1px	
+}
+
+.ListBoxGeneral
+{	
+    font-size: 8pt;	
+	color:#3D3D3D;		
+    border:1px;
+	border-style:solid;
+	border-width:1px;
+    border-color:red; 
+    font-family:Arial;
+    margin-left:10px;
+}
+
+.GridItem
+{
+	padding-left:3px;
+	padding-right:3px;
+	font-family:Arial;
+	font-size: 8pt;	
+	color: #3D3D3D;
+	height:20px;
+	margin-top:1px;
+	word-break:break-all;
+}
+
+.GridHead
+{
+	background-color:#e9e9e9;
+	padding-left:3px;
+	padding-right:3px;
+	font-family:Arial;
+	font-size: 8pt;	
+	font-weight:bold;
+	color: #000000;	
+	height:25px;
+	word-break:break-all;
+}
+
+.GridFoot
+{
+	padding-left:3px;
+	padding-right:3px;
+	font-family:Arial;
+	font-size: 8pt;	
+	color: #3D3D3D;
+	height:20px;
+	margin-top:1px;
+	word-break:break-all;
+}

@@ -1,0 +1,45 @@
+﻿
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-09-27 21:45:30
+log-type: BERT-YANG\bert.yang
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: 无法打开登录所请求的数据库 "GDMSNEW"。登录失败。
+用户 'sa' 登录失败。
+ex-data: HelpLink.ProdName=Microsoft SQL Server;HelpLink.EvtSrc=MSSQLServer;HelpLink.EvtID=4060;HelpLink.BaseHelpUrl=http://go.microsoft.com/fwlink;HelpLink.LinkId=20476;
+ex-source: .Net SqlClient Data Provider
+ex-stack-trace:    在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 SimpleFlow.DBFramework.SQLServer.SqlHelper.ExecuteDataTable(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DBFramework\SQLServer\SqlHelper4Qisda.cs:行号 57
+   在 SimpleFlow.DBFramework.SQLServer.SqlHelper.ExecuteDataTableBySql(String connectionString, String commandText, SqlParameter[] commandParameters) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DBFramework\SQLServer\SqlHelper4Qisda.cs:行号 198
+   在 SimpleFlow.DBFramework.SQLServer.SqlHelper.GetEntity[T](String connection_string, String sql, SqlParameter[] param_list) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DBFramework\SQLServer\SqlHelper4Entity.cs:行号 193
+   在 SimpleFlow.DataAccess.UserDataAccess.GetUserByAccount(String accountWithDomain) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DataAccess\User.cs:行号 113
+   在 SimpleFlow.BusinessFacade.UserBiz.GetUserByAccount(String accountWithDomain) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.BusinessFacade\UserBiz.cs:行号 75
+   在 BasePage.GetCurrentUserInfo() 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 75
+   在 BasePage.OnLoad(EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 155
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ex-target-site: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 

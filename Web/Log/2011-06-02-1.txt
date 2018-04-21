@@ -1,0 +1,26 @@
+﻿
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-06-02 21:08:31
+log-type: 0402865
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: Url has not set.
+ex-data: 
+ex-source: App_Web_fezxxroi
+ex-stack-trace:    在 TransferFrame.Page_Load(Object sender, EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\TransferFrame.aspx.cs:行号 25
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 BasePage.OnLoad(EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 158
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ex-target-site: Void Page_Load(System.Object, System.EventArgs)
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 

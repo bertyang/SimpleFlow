@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Default.aspx" title="Home"  description="Home Page">
+      <siteMapNode url="~/Management/GroupMaintain.aspx" title="User Group Setting"  description="User Group Setting" >
+        <siteMapNode url="~/Management/GroupUserMaintain.aspx" title="Group vs User" description="Group vs User" />
+      </siteMapNode>
+      <siteMapNode url="~/Management/MenuMaintain.aspx" title="Menu Setting"  description="Menu Setting" >
+        <siteMapNode url="~/Management/MenuGroupMaintain.aspx" title="Menu vs User" description="Menu vs User" />
+      </siteMapNode>
+    </siteMapNode>
+  </siteMap>

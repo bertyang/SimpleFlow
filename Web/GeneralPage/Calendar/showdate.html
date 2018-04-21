@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<HTML XMLNS:IE>
+	<HEAD>
+		<title>Calendar</title>
+		<meta name="GENERATOR" Content="Microsoft Visual Studio 7.0">
+		<meta name="CODE_LANGUAGE" Content="C#">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+		<style> @media all { IE\:Calendar {behavior:url("Calendar.htc"); width:33%; }}
+		</style>
+		<script LANGUAGE="javascript">
+		<!--
+			var id=window.setInterval ("ShowHTC()",100);
+			
+			
+			function SelectDate()
+			{
+			window.returnValue = window.htcStartTime.getAttribute("value");
+			window.close();
+			}
+			
+			
+			function ShowHTC(){
+				if (document.readyState == "complete"){
+				ShowDate.document.all.htcStartTime.style.display = "block";
+				window.clearInterval(id);
+				}
+			}
+		-->
+		</script>
+	</HEAD>
+	<body MS_POSITIONING="GridLayout" id="bd" onkeypress="if (event.keyCode==27){window.close();}">
+		
+			<form name="ShowDate" method="post" action="showdate.aspx" id="ShowDate">
+				<ie:calendar id="htcStartTime" name="htcStartTime" onclickvalue="SelectDate()" style="WIDTH: 200px;HEIGHT: 165px;display:none"></ie:calendar>
+			</form>
+
+
+
+	</body>
+</HTML>

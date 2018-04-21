@@ -1,0 +1,190 @@
+﻿
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-05-22 10:34:41
+log-type: 
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: Access Denied
+ex-data: 
+ex-source: App_Code.ogyerxf_
+ex-stack-trace:    在 BasePage.GetCurrentUserInfo() 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 91
+   在 BasePage.OnLoad(EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 155
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ex-target-site: SimpleFlow.Entity.SysUserInfo GetCurrentUserInfo()
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 
+
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-05-22 11:15:17
+log-type: 0402865
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: 找到多个具有相同 ID“button_withdraw”的控件。FindControl 要求控件具有唯一的 ID。
+ex-data: 
+ex-source: System.Web
+ex-stack-trace:    在 System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   在 System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   在 System.Web.UI.Control.EnsureNamedControlsTable()
+   在 System.Web.UI.Control.FindControl(String id, Int32 pathOffset)
+   在 System.Web.UI.Control.FindControl(String id)
+   在 TraceFormDetail.GridView1_RowDataBound(Object sender, GridViewRowEventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\TraceFormDetail.aspx.cs:行号 76
+   在 System.Web.UI.WebControls.GridView.OnRowDataBound(GridViewRowEventArgs e)
+   在 System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   在 System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   在 System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   在 System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   在 System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   在 System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   在 System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   在 System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   在 System.Web.UI.WebControls.GridView.DataBind()
+   在 TraceFormDetail.QueryData() 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\TraceFormDetail.aspx.cs:行号 58
+   在 TraceFormDetail.Page_Load(Object sender, EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\TraceFormDetail.aspx.cs:行号 26
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 BasePage.OnLoad(EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 158
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ex-target-site: Void FillNamedControlsTable(System.Web.UI.Control, System.Web.UI.ControlCollection)
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 
+
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-05-22 11:15:19
+log-type: 0402865
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: 找到多个具有相同 ID“button_withdraw”的控件。FindControl 要求控件具有唯一的 ID。
+ex-data: 
+ex-source: System.Web
+ex-stack-trace:    在 System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   在 System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   在 System.Web.UI.Control.EnsureNamedControlsTable()
+   在 System.Web.UI.Control.FindControl(String id, Int32 pathOffset)
+   在 System.Web.UI.Control.FindControl(String id)
+   在 TraceFormDetail.GridView1_RowDataBound(Object sender, GridViewRowEventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\TraceFormDetail.aspx.cs:行号 76
+   在 System.Web.UI.WebControls.GridView.OnRowDataBound(GridViewRowEventArgs e)
+   在 System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   在 System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   在 System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   在 System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   在 System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   在 System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   在 System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   在 System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   在 System.Web.UI.WebControls.GridView.DataBind()
+   在 TraceFormDetail.QueryData() 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\TraceFormDetail.aspx.cs:行号 58
+   在 TraceFormDetail.Page_Load(Object sender, EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\TraceFormDetail.aspx.cs:行号 26
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 BasePage.OnLoad(EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 158
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ex-target-site: Void FillNamedControlsTable(System.Web.UI.Control, System.Web.UI.ControlCollection)
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 
+
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-05-22 11:18:26
+log-type: 0402865
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: 找到多个具有相同 ID“button_withdraw”的控件。FindControl 要求控件具有唯一的 ID。
+ex-data: 
+ex-source: System.Web
+ex-stack-trace:    在 System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   在 System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   在 System.Web.UI.Control.EnsureNamedControlsTable()
+   在 System.Web.UI.Control.FindControl(String id, Int32 pathOffset)
+   在 System.Web.UI.Control.FindControl(String id)
+   在 TraceFormDetail.GridView1_RowDataBound(Object sender, GridViewRowEventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\TraceFormDetail.aspx.cs:行号 76
+   在 System.Web.UI.WebControls.GridView.OnRowDataBound(GridViewRowEventArgs e)
+   在 System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   在 System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   在 System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   在 System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   在 System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   在 System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   在 System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   在 System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   在 System.Web.UI.WebControls.GridView.DataBind()
+   在 TraceFormDetail.QueryData() 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\TraceFormDetail.aspx.cs:行号 58
+   在 TraceFormDetail.Page_Load(Object sender, EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\TraceFormDetail.aspx.cs:行号 26
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 BasePage.OnLoad(EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 158
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ex-target-site: Void FillNamedControlsTable(System.Web.UI.Control, System.Web.UI.ControlCollection)
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 
+
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-05-22 20:53:48
+log-type: 0402865
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: 未将对象引用设置到对象的实例。
+ex-data: 
+ex-source: App_Web_1cxg8ftq
+ex-stack-trace:    在 ApproveForm.GridView1_RowDataBound(Object sender, GridViewRowEventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\ApproveForm.aspx.cs:行号 121
+   在 System.Web.UI.WebControls.GridView.OnRowDataBound(GridViewRowEventArgs e)
+   在 System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   在 System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   在 System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   在 System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   在 System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   在 System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   在 System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   在 System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   在 System.Web.UI.WebControls.GridView.DataBind()
+   在 ApproveForm.QueryData() 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\ApproveForm.aspx.cs:行号 50
+   在 ApproveForm.Page_Load(Object sender, EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\ApproveForm.aspx.cs:行号 25
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 BasePage.OnLoad(EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 158
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ex-target-site: Void GridView1_RowDataBound(System.Object, System.Web.UI.WebControls.GridViewRowEventArgs)
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 

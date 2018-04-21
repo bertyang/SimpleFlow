@@ -1,0 +1,554 @@
+<!-- Modified by Jason Zhou 24/07/2006 -->
+<html>
+	<head>
+		<title>Calendar</title>
+		<style>
+<!--
+TD 
+{
+	font-family: Arial;
+	font-size: 8pt;
+	text-align: right;
+	padding-right: 6px;
+	vertical-align: middle;
+	cursor: hand;
+}
+
+.DayNowMouseUp
+{
+	font-weight: bold;
+	background-color: #CCCCCC;
+}
+
+.DayNowMouseDown
+{
+	font-weight: bold;
+	background-color: #543B8C;
+	color: #FFFFFF;
+}
+
+.LastMonthDayWorkMouseUp
+{ 
+	color: #808080;
+}
+
+.LastMonthDayWorkMouseDown
+{
+	font-weight: bold;
+	background-color: #543B8C;
+	color: #FFFFFF;
+}
+
+.LastMonthDayWeekendMouseUp
+{
+	background-color: #EEECF7;
+	color: #808080;
+}
+
+.LastMonthDayWeekendMouseDown
+{
+	font-weight: bold;
+	background-color: #543B8C;
+	color: #FFFFFF;
+}
+
+.NextMonthDayWorkMouseUp
+{ 
+	color: #808080;
+}
+
+.NextMonthDayWorkMouseDown
+{
+	font-weight: bold;
+	background-color: #543B8C;
+	color: #FFFFFF;
+}
+
+.NextMonthDayWeekendMouseUp
+{
+	background-color: #EEECF7;
+	color: #808080;
+}
+
+.NextMonthDayWeekendMouseDown
+{
+	font-weight: bold;
+	background-color: #543B8C;
+	color: #FFFFFF;
+}
+
+.DayWorkMouseUp
+{
+	color: #000000;
+}
+
+.DayWorkMouseDown
+{
+	font-weight: bold;
+	background-color: #543B8C;
+	color: #FFFFFF;
+}
+
+.DayWeekendMouseUp
+{
+	background-color: #EEECF7;
+	color: #000000;
+}
+
+.DayWeekendMouseDown
+{
+	font-weight: bold;
+	background-color: #543B8C;
+	color: #FFFFFF;
+}
+
+.WeekdayTitle
+{
+	background-color: #EEECF7;
+	color: #000000;
+}
+
+.ArrowMouseUp
+{
+	background-color: #B8ADD5;
+	color: #000000;
+	vertical-align: middle;
+}
+
+.ArrowMouseDown
+{ 
+	background-color: #B8ADD5;
+	color: #000000;
+	vertical-align: middle;
+}
+
+.YearMonthTitle
+{
+	font-size: 9pt;
+	font-weight: bold;
+	background-color: #B8ADD5;
+	text-align: center;
+	vertical-align: middle;
+	cursor:default;
+}
+
+.YearMonthSelectTitle
+{
+	font-weight: bold;
+	vertical-align: middle;
+	cursor:default;
+}
+
+.DateSelect
+{
+	text-align: right;
+	cursor:default;
+}
+-->
+		</style>
+	</head>
+	<body>
+		<table border="0" cellpadding="0" cellspacing="0" style="font-size: 8pt;" id="tblCal" width="100%" height="100%" OnSelectStart="return false;">
+			<tr>
+				<td colspan="7" height="26px" style="padding-right: 0; cursor:default;">
+					<table border="0" cellpadding="0" cellspacing="0" width="100%" height="26px" style="background-image: url(../Images/Calendar_Title_BG.jpg);" >
+						<tr>
+							<td width="20px" class="YearMonthSelectTitle" style="text-align: left; padding-left: 6px;" >Month</td>
+							<td width="100px" align="center" id="celMonth" style="cursor:default;" >
+								<select name="selMonth" size="1" class="DateSelect" style="width: 80px;" ONCHANGE="selMonthYear();" ID="Select1">
+									<option value="January">1</option>
+									<option value="February">2</option>
+									<option value="March">3</option>
+									<option value="April">4</option>
+									<option value="May">5</option>
+									<option value="June">6</option>
+									<option value="July">7</option>
+									<option value="August">8</option>
+									<option value="September">9</option>
+									<option value="October">10</option>
+									<option value="November">11</option>
+									<option value="December">12</option>
+								</select>
+							</td>
+							<td width="5px" style="cursor:default;" ></td>
+							<td width="2px" style="cursor:default; background-image: url(./Images/Galaxy_Calendar_Title_Line.jpg); background-repeat: no-repeat;"></td>
+							<td width="20px" style="cursor:default;" ></td>
+							<td width="10px" class="YearMonthSelectTitle" style="text-align: right; padding-right: 6px;" >Year</td>
+							<td align="center" id="celMonth" style="cursor:default;" >
+								<select name="selYear" size="1" class="DateSelect" style="width: 80px;" ONCHANGE="selMonthYear();" ID="Select2">
+								</select>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<div>
+				<td align="center" id="celBack" class="ArrowMouseDown" style="text-align: left; padding-left: 6px;" height="26px" >&lt;</td>
+				<td colspan="5" id="tdYearMonth" class="YearMonthTitle" height="26px"></td>
+				<td align="center" id="celNext" class="ArrowMouseDown" style="text-align: right; padding-right: 6px;" height="26px" >&gt;</td>
+				</div>
+			</tr>
+			<tr>
+				<td align="center" style="cursor:default;" width="14%" class="WeekdayTitle">Sun</td>
+				<td align="center" style="cursor:default;" width="14%" class="WeekdayTitle">Mon</td>
+				<td align="center" style="cursor:default;" width="14%" class="WeekdayTitle">Tue</td>
+				<td align="center" style="cursor:default;" width="14%" class="WeekdayTitle">Wed</td>
+				<td align="center" style="cursor:default;" width="14%" class="WeekdayTitle">Thu</td>
+				<td align="center" style="cursor:default;" width="14%" class="WeekdayTitle">Fri</td>
+				<td align="center" style="cursor:default;" width="14%" class="WeekdayTitle">Sat</td>
+			</tr>
+			<tr>
+				<td align="center" width="14%" id="d1"></td>
+				<td align="center" width="14%" id="d2"></td>
+				<td align="center" width="14%" id="d3"></td>
+				<td align="center" width="14%" id="d4"></td>
+				<td align="center" width="14%" id="d5"></td>
+				<td align="center" width="14%" id="d6"></td>
+				<td align="center" width="14%" id="d7"></td>
+			</tr>
+			<tr>
+				<td align="center" width="14%" id="d8"></td>
+				<td align="center" width="14%" id="d9"></td>
+				<td align="center" width="14%" id="d10"></td>
+				<td align="center" width="14%" id="d11"></td>
+				<td align="center" width="14%" id="d12"></td>
+				<td align="center" width="14%" id="d13"></td>
+				<td align="center" width="14%" id="d14"></td>
+			</tr>
+			<tr>
+				<td align="center" width="14%" id="d15"></td>
+				<td align="center" width="14%" id="d16"></td>
+				<td align="center" width="14%" id="d17"></td>
+				<td align="center" width="14%" id="d18"></td>
+				<td align="center" width="14%" id="d19"></td>
+				<td align="center" width="14%" id="d20"></td>
+				<td align="center" width="14%" id="d21"></td>
+			</tr>
+			<tr>
+				<td align="center" width="14%" id="d22"></td>
+				<td align="center" width="14%" id="d23"></td>
+				<td align="center" width="14%" id="d24"></td>
+				<td align="center" width="14%" id="d25"></td>
+				<td align="center" width="14%" id="d26"></td>
+				<td align="center" width="14%" id="d27"></td>
+				<td align="center" width="14%" id="d28"></td>
+			</tr>
+			<tr>
+				<td align="center" width="14%" id="d29"></td>
+				<td align="center" width="14%" id="d30"></td>
+				<td align="center" width="14%" id="d31"></td>
+				<td align="center" width="14%" id="d32"></td>
+				<td align="center" width="14%" id="d33"></td>
+				<td align="center" width="14%" id="d34"></td>
+				<td align="center" width="14%" id="d35"></td>
+			</tr>
+			<tr>
+				<td align="center" width="14%" id="d36"></td>
+				<td align="center" width="14%" id="d37"></td>
+				<td align="center" width="14%" id="d38"></td>
+				<td align="center" width="14%" id="d39"></td>
+				<td align="center" width="14%" id="d40"></td>
+				<td align="center" width="14%" id="d41"></td>
+				<td align="center" width="14%" id="d42"></td>
+			</tr>
+		</table>
+		<p>
+
+<script language="JavaScript">
+<!--
+var dCurDate = "";
+var objTemp;
+
+window.onload = initWindow;
+window.onerror = doError;
+document.onmousedown = mouseDownCell;
+document.onmouseup = mouseUpCell;
+
+
+function doError()
+{
+	alert(arguments[0]);
+}
+
+
+function initWindow()
+{
+	var dNow = new Date();
+	setDateSelect();
+	updateCal(dNow);
+	displayMonthYear(dNow);
+}
+
+
+function public_setDate(sDate)
+{
+	dCurDate = "";
+	objTemp = "";
+	var dNow = new Date(parseInt(sDate.substring(6, 10), 10), parseInt(sDate.substring(3, 5), 10) - 1, parseInt(sDate.substring(0, 2), 10));
+	dCurDate = dNow;
+	if (dNow == "NaN")
+	{
+		dNow = new Date();
+		dCurDate = "";
+	}
+	displayMonthYear(dNow);
+	updateCal(dNow);
+}
+
+
+function setDay(sCell)
+{
+	sMonth = selMonth.selectedIndex;
+	if (sCell.className == "LastMonthDayWorkMouseDown"
+		|| sCell.className == "LastMonthDayWeekendMouseDown")
+	{
+		sMonth -= 1;
+	}
+	else if (sCell.className == "NextMonthDayWorkMouseDown"
+		|| sCell.className == "NextMonthDayWeekendMouseDown")
+	{
+		sMonth += 1;
+	}
+	sYear = selYear.value;
+	var dtmCurrentDate = new Date(sYear, sMonth, sCell.innerText);
+	var sCurrentDate = dtmCurrentDate.toString();
+	window.external.raiseEvent("ondatechange", sCurrentDate);
+}
+
+
+function displayMonthYear(dDate)
+{
+	iYear = dDate.getFullYear();
+	selYear.value = iYear;
+	if (selYear.value == "")
+	{
+		objNewOpt = document.createElement("OPTION");
+		objNewOpt.text = iYear;
+		objNewOpt.value = iYear;
+		if (iYear > parseInt(selYear.options[0].value))
+		{
+			iPos = 0;
+		}
+		else
+		{
+			iPos = selYear.options.length + 1;
+		}
+		selYear.options.add(objNewOpt,iPos);
+		selYear.value = iYear;
+	}
+	selMonth.selectedIndex = dDate.getMonth();
+
+	tdYearMonth.innerText = selMonth.options[selMonth.selectedIndex].value + " " + iYear;
+}
+
+
+function selMonthYear()
+{
+	dDate = new Date(selYear.value, selMonth.selectedIndex, 1);
+	updateCal(dDate);
+}
+
+
+function setDateSelect()
+{
+	dNow = new Date();
+	iScrap = dNow.getFullYear() - 2;
+	for (i = 0; i < 8; i++)
+	{
+		objNewOpt = document.createElement("OPTION");
+		objNewOpt.text = (iScrap + i);
+		objNewOpt.value = (iScrap + i);
+		selYear.options.add(objNewOpt);
+	}
+}
+
+
+function mouseDownCell()
+{
+	objTemp = "";
+	sCell = window.event.srcElement;
+	var sClassName = sCell.className;
+	if (sClassName != "ArrowMouseUp")
+	{
+		objTemp = sCell;
+	}
+	sCell.className = sClassName.replace("MouseUp", "MouseDown");
+}
+
+
+function mouseUpCell()
+{
+	sCell = window.event.srcElement;
+	if (sCell.className == "ArrowMouseDown")
+	{
+		sCell.className = "ArrowMouseUp";
+		if (sCell.id == "celBack")
+		{
+			dDate = dateAdd("m", -1, new Date(selYear.value, selMonth.selectedIndex, 1));
+			displayMonthYear(dDate);
+			updateCal(dDate);
+		}
+		if (sCell.id == "celNext")
+		{
+			dDate = dateAdd("m", 1, new Date(selYear.value, selMonth.selectedIndex, 1));
+			displayMonthYear(dDate);
+			updateCal(dDate);
+		}
+	}
+	else if (sCell.className == "LastMonthDayWorkMouseDown"
+		|| sCell.className == "LastMonthDayWeekendMouseDown"
+		|| sCell.className == "NextMonthDayWorkMouseDown"
+		|| sCell.className == "NextMonthDayWeekendMouseDown"
+		|| sCell.className == "DayWorkMouseDown"
+		|| sCell.className == "DayWeekendMouseDown"
+		|| sCell.className == "DayNowMouseDown")
+	{
+		setDay(sCell);
+	}
+}
+
+
+function updateCal(dCurrentDate)
+{
+	iCurrentMonth = dCurrentDate.getMonth();
+	iCurrentYear = dCurrentDate.getFullYear();
+	iCurrentDay = dCurrentDate.getDate();
+
+	dCurrentStart = new Date(iCurrentYear, iCurrentMonth, 1);
+	dCurrentEnd = dateAdd("m", 1, dCurrentStart);
+
+	// last month's end date = current month's first date - 1
+	dLastEnd = dateAdd("d", -1, dCurrentStart);
+	iLastDays = dLastEnd.getDate();
+
+	iCurrentDays = dateDiff("d", dCurrentStart, dCurrentEnd);
+	iCurrentStartDay = (dCurrentStart.getDay() + 1);
+
+	for (i = 1;  i < 43; i++)
+	{
+		sScrap = "d" + i
+		objItem = document.all[sScrap];
+
+		var intCheckWeekend = i % 7;
+		if (i < iCurrentStartDay)
+		{
+			objItem.innerText = (iLastDays - iCurrentStartDay + 1 + i);
+			
+			if (intCheckWeekend == 0 || intCheckWeekend == 1)
+			{
+				objItem.className = "LastMonthDayWeekendMouseUp";
+			}
+			else
+			{
+				objItem.className = "LastMonthDayWorkMouseUp";
+			}
+		}
+		else if ((i - iCurrentStartDay + 1) > iCurrentDays)
+		{
+			objItem.innerText = (i - iCurrentStartDay + 1 - iCurrentDays);
+			
+			if (intCheckWeekend == 0 || intCheckWeekend == 1)
+			{
+				objItem.className = "NextMonthDayWeekendMouseUp";
+			}
+			else
+			{
+				objItem.className = "NextMonthDayWorkMouseUp";
+			}
+		}
+		else
+		{
+			objItem.innerText = (i - iCurrentStartDay + 1);
+			
+			if (intCheckWeekend == 0 || intCheckWeekend == 1)
+			{
+				objItem.className = "DayWeekendMouseUp";
+			}
+			else
+			{
+				objItem.className = "DayWorkMouseUp";
+			}
+		}
+
+	}
+
+	// set now date's style
+	var dNow = new Date();
+	if ((dNow.getMonth() == dCurrentDate.getMonth()) && (dNow.getFullYear() == dCurrentDate.getFullYear()))
+	{
+		document.all("d" + (iCurrentStartDay - 1 + dNow.getDate())).className = "DayNowMouseUp";
+	}
+
+	// set last selected date' style
+	if (dCurDate != "")
+	{
+		if ((dCurDate.getMonth() == dCurrentDate.getMonth()) && (dCurDate.getFullYear() == dCurrentDate.getFullYear()))
+		{
+			objItem = document.all("d" + (iCurrentStartDay - 1 + dCurDate.getDate()))
+			if (objItem.className = "DayWeekendMouseUp")
+			{
+				objItem.className = "DayWeekendMouseDown";
+			}
+			else
+			{
+				objItem.className = "DayWorkMouseDown";
+			}
+		}
+	}
+}
+
+
+function dateAdd(sInterval, iNumber, dDate)
+{
+	dTemp = new Date(dDate);
+	if (dTemp == "NaN") dTemp = new Date();
+	switch (sInterval) {
+		case "s" :
+			return new Date(Date.parse(dTemp) + (1000 * iNumber));
+		case "n" :
+			return new Date(Date.parse(dTemp) + (60000 * iNumber));
+		case "h" :
+			return new Date(Date.parse(dTemp) + (3600000 * iNumber));
+		case "d" :
+			return new Date(Date.parse(dTemp) + (86400000 * iNumber));
+		case "w" :
+			return new Date(Date.parse(dTemp) + ((86400000 * 7) * iNumber));
+		case "m" :
+			return new Date(dTemp.getFullYear(), (dTemp.getMonth()) + iNumber, dTemp.getDate());
+		case "y" :
+			return new Date((dTemp.getFullYear() + iNumber), dTemp.getMonth(), dTemp.getDate());
+	}
+}
+
+
+function dateDiff(sInterval, dStart, dEnd)
+{
+	dStart = new Date(dStart);
+		if (dStart == "NaN") dStart = new Date();
+	dEnd = new Date(dEnd);
+		if (dEnd == "NaN") dEnd = new Date();
+	switch (sInterval) {
+		case "s" :
+			return parseInt((Date.parse(dEnd) - Date.parse(dStart)) / 1000);
+		case "n" :
+			return parseInt((Date.parse(dEnd) - Date.parse(dStart)) / 60000);
+		case "h" :
+			return parseInt((Date.parse(dEnd) - Date.parse(dStart)) / 3600000);
+		case "d" :
+			iScrap = (Date.parse(dEnd) - Date.parse(dStart)) / 86400000
+			iScrap = iScrap + .1
+			return parseInt(iScrap);
+		case "w" :
+			return parseInt((Date.parse(dEnd) - Date.parse(dStart)) / (86400000 * 7));
+		case "m" :
+			return (dEnd.getMonth() - dStart.getMonth());
+		case "y" :
+			return (dEnd.getFullYear() - dStart.getFullYear());
+	}
+}
+// -->
+</script>
+</p>
+	</body>
+</html>

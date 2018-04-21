@@ -1,0 +1,55 @@
+<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+<asp:Label runat="server"  CssClass="LabelGeneral" />
+<asp:Label runat="server" CssClass="LabelTitle" SkinID="LabelTitle" />
+<asp:Label runat="server" CssClass="LabelSubTitle" SkinID="LabelSubTitle" />
+
+<asp:HyperLink runat="server" CssClass="LinkPath" SkinID="LinkPath"></asp:HyperLink>
+
+<asp:TextBox  runat="server" CssClass="TextBoxGeneral" Width="165px" />
+<asp:TextBox  runat="server" CssClass="TextBoxGrid" Width="165px" SkinID="TextBoxGrid" />
+<asp:TextBox runat="server" CssClass="TextBoxLine" Width="165px" SkinID="TextBoxLine" />
+
+<asp:DropDownList  runat="server"  CssClass="DropDownListGeneral" Width="165px" />
+<asp:DropDownList  runat="server"  CssClass="DropDownListGrid" Width="165px"  SkinID="DropDownListGrid"/>
+
+<asp:CheckBox  runat="server" CssClass="CheckBoxGeneral"/>
+<asp:CheckBox  runat="server" CssClass="CheckBoxGrid" SkinID="CheckBoxGrid" />
+
+<asp:Button runat="server" CssClass="ButtonGeneral" Width="60px" />
+
+<asp:Image runat="server" ImageUrl="Images/icon_title.gif" SkinID="ImageTitle" />
+<asp:Image runat="server" ImageUrl="Images/multi.gif" ImageAlign="AbsMiddle" SkinID="ImageUser" style="cursor: hand;" />
+
+<asp:ImageButton runat="server" ImageUrl="Images/save.gif" ImageAlign="AbsMiddle" SkinID="ButtonSave" />
+<asp:ImageButton runat="server" ImageUrl="Images/undo.gif" ImageAlign="AbsMiddle" SkinID="ButtonCancel" />
+<asp:ImageButton runat="server" ImageUrl="Images/modify.gif" ImageAlign="AbsMiddle" SkinID="ButtonEdit" />
+<asp:ImageButton runat="server" ImageUrl="Images/delete.gif" ImageAlign="AbsMiddle" SkinID="ButtonDelete" />
+
+<asp:DataGrid  runat="server" AutoGenerateColumns="False" CellPadding="0" CellSpacing="0" BorderStyle="Solid" >
+        <ItemStyle CssClass="GridItem" />
+        <HeaderStyle CssClass="GridHead" />
+        <FooterStyle CssClass="GridFoot" />
+</asp:DataGrid>
+
+<asp:GridView runat="server" AutoGenerateColumns="False" CellPadding="0" CellSpacing="0" BorderStyle="Solid" >
+    <HeaderStyle CssClass="GridHead"/>
+    <RowStyle CssClass="GridItem" />
+    <FooterStyle CssClass="GridFoot"/>
+    <AlternatingRowStyle CssClass="GridItem"/>
+</asp:GridView>
+
+<asp:ListBox runat="server" CssClass="ListBoxGeneral" Width="175px"/>

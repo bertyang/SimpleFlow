@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9E4CB386-29BB-471D-B796-DEF1AAC752DA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SimpleFlow.Entity</RootNamespace>
+    <AssemblyName>SimpleFlow.Entity</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActiveInfo.cs" />
+    <Compile Include="ActiveInfoHelper.cs" />
+    <Compile Include="ConditionInfo.cs" />
+    <Compile Include="ConditionInfoHelper.cs" />
+    <Compile Include="ConditionSubInfo.cs" />
+    <Compile Include="ConditionSubInfoHelper.cs" />
+    <Compile Include="FormApproveInfo.cs" />
+    <Compile Include="FormApproveInfoHelper.cs" />
+    <Compile Include="FormHeaderInfo.cs" />
+    <Compile Include="FormHeaderInfoHelper.cs" />
+    <Compile Include="FormInfo.cs" />
+    <Compile Include="FormInfoHelper.cs" />
+    <Compile Include="MenuNode.cs" />
+    <Compile Include="ParticipantFieldInfo.cs" />
+    <Compile Include="ParticipantFieldInfoHelper.cs" />
+    <Compile Include="ParticipantInfo.cs" />
+    <Compile Include="ParticipantInfoHelper.cs" />
+    <Compile Include="ParticipantOrgInfo.cs" />
+    <Compile Include="ParticipantOrgInfoHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SysAttachment.cs" />
+    <Compile Include="SysAttachmentHelper.cs" />
+    <Compile Include="SysBatchUpload.cs" />
+    <Compile Include="SysBatchUploadHelper.cs" />
+    <Compile Include="SysCodeList.cs" />
+    <Compile Include="SysCodeListHelper.cs" />
+    <Compile Include="SysCodeMaster.cs" />
+    <Compile Include="SysCodeMasterHelper.cs" />
+    <Compile Include="SysConfig.cs" />
+    <Compile Include="SysConfigHelper.cs" />
+    <Compile Include="SysDeptInfo.cs" />
+    <Compile Include="SysDeptInfoHelper.cs" />
+    <Compile Include="SysDocPath.cs" />
+    <Compile Include="SysDocPathHelper.cs" />
+    <Compile Include="SysExceptionLog.cs" />
+    <Compile Include="SysExceptionLogHelper.cs" />
+    <Compile Include="SysGroup.cs" />
+    <Compile Include="SysGroupHelper.cs" />
+    <Compile Include="SysGroupUser.cs" />
+    <Compile Include="SysGroupUserHelper.cs" />
+    <Compile Include="SysMenu.cs" />
+    <Compile Include="SysMenuGroup.cs" />
+    <Compile Include="SysMenuGroupHelper.cs" />
+    <Compile Include="SysMenuHelper.cs" />
+    <Compile Include="SysMenuLanguage.cs" />
+    <Compile Include="SysMenuLanguageHelper.cs" />
+    <Compile Include="SysObjectsInfo.cs" />
+    <Compile Include="SysObjectsInfoHelper.cs" />
+    <Compile Include="SysSiteList.cs" />
+    <Compile Include="SysSiteListHelper.cs" />
+    <Compile Include="SysUserInfo.cs" />
+    <Compile Include="SysUserInfoHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleFlow.DBFramework\SimpleFlow.DBFramework.csproj">
+      <Project>{F3FFCF72-1457-4497-B1E4-709612C12446}</Project>
+      <Name>SimpleFlow.DBFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SimpleFlow.SystemFramework\SimpleFlow.SystemFramework.csproj">
+      <Project>{F7147DFE-3D5D-40E2-A188-7C0CDA6064B2}</Project>
+      <Name>SimpleFlow.SystemFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

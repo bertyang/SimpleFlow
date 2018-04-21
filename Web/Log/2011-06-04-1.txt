@@ -1,0 +1,161 @@
+﻿
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-06-04 12:13:28
+log-type: 
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: Access Denied
+ex-data: 
+ex-source: App_Code.gcxt2df2
+ex-stack-trace:    在 BasePage.GetCurrentUserInfo() 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 91
+   在 BasePage.OnLoad(EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 155
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ex-target-site: SimpleFlow.Entity.SysUserInfo GetCurrentUserInfo()
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 
+
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-06-04 15:28:54
+log-type: 
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: Access Denied
+ex-data: 
+ex-source: App_Code.svt1k2b8
+ex-stack-trace:    在 BasePage.GetCurrentUserInfo() 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 91
+   在 BasePage.OnLoad(EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 155
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ex-target-site: SimpleFlow.Entity.SysUserInfo GetCurrentUserInfo()
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 
+
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-06-04 15:28:54
+log-type: 
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: Access Denied
+ex-data: 
+ex-source: App_Code.svt1k2b8
+ex-stack-trace:    在 BasePage.GetCurrentUserInfo() 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 91
+   在 BasePage.OnLoad(EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 155
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ex-target-site: SimpleFlow.Entity.SysUserInfo GetCurrentUserInfo()
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 
+
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-06-04 15:28:54
+log-type: 
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: Access Denied
+ex-data: 
+ex-source: App_Code.svt1k2b8
+ex-stack-trace:    在 BasePage.GetCurrentUserInfo() 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 91
+   在 BasePage.OnLoad(EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 155
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ex-target-site: SimpleFlow.Entity.SysUserInfo GetCurrentUserInfo()
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 
+
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-06-04 15:32:16
+log-type: 
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: Access Denied
+ex-data: 
+ex-source: App_Code.7akalkkd
+ex-stack-trace:    在 BasePage.GetCurrentUserInfo() 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 91
+   在 BasePage.OnLoad(EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 155
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ex-target-site: SimpleFlow.Entity.SysUserInfo GetCurrentUserInfo()
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 
+
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-06-04 15:35:22
+log-type: 
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: Access Denied
+ex-data: 
+ex-source: App_Code.nkyfer4y
+ex-stack-trace:    在 BasePage.GetCurrentUserInfo() 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 91
+   在 BasePage.OnLoad(EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 155
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ex-target-site: SimpleFlow.Entity.SysUserInfo GetCurrentUserInfo()
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 
+
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-06-04 15:43:27
+log-type: 
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: Access Denied
+ex-data: 
+ex-source: App_Code.jsncsstw
+ex-stack-trace:    在 BasePage.GetCurrentUserInfo() 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 91
+   在 BasePage.OnLoad(EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 155
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ex-target-site: SimpleFlow.Entity.SysUserInfo GetCurrentUserInfo()
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 

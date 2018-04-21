@@ -1,0 +1,588 @@
+﻿
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-05-08 16:09:30
+log-type: FlowDesign_SaveFlow
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: 正在中止线程。
+ex-data: 
+ex-source: mscorlib
+ex-stack-trace:    在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.End()
+   在 FlowDesign_SaveFlow.Page_Load(Object sender, EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\FlowDesign\SaveFlow.aspx.cs:行号 27
+ex-target-site: Void AbortInternal()
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 
+
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-05-08 16:11:24
+log-type: 
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: Access Denied
+ex-data: 
+ex-source: App_Code.ews5cimx
+ex-stack-trace:    在 BasePage.GetCurrentUserInfo() 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 91
+   在 BasePage.OnLoad(EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 155
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ex-target-site: SimpleFlow.Entity.SysUserInfo GetCurrentUserInfo()
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 
+
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-05-08 16:17:59
+log-type: 
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: Access Denied
+ex-data: 
+ex-source: App_Code.ews5cimx
+ex-stack-trace:    在 BasePage.GetCurrentUserInfo() 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 91
+   在 BasePage.OnLoad(EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 155
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ex-target-site: SimpleFlow.Entity.SysUserInfo GetCurrentUserInfo()
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 
+
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-05-08 16:19:04
+log-type: 
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: Access Denied
+ex-data: 
+ex-source: App_Code.ews5cimx
+ex-stack-trace:    在 BasePage.GetCurrentUserInfo() 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 91
+   在 BasePage.OnLoad(EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 155
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ex-target-site: SimpleFlow.Entity.SysUserInfo GetCurrentUserInfo()
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 
+
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-05-08 16:19:21
+log-type: FlowDesign_SaveFlow
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: 正在中止线程。
+ex-data: 
+ex-source: mscorlib
+ex-stack-trace:    在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.End()
+   在 FlowDesign_SaveFlow.Page_Load(Object sender, EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\FlowDesign\SaveFlow.aspx.cs:行号 27
+ex-target-site: Void AbortInternal()
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 
+
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-05-08 16:19:27
+log-type: FlowDesign_SaveFlow
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: 正在中止线程。
+ex-data: 
+ex-source: mscorlib
+ex-stack-trace:    在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.End()
+   在 FlowDesign_SaveFlow.Page_Load(Object sender, EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\FlowDesign\SaveFlow.aspx.cs:行号 27
+ex-target-site: Void AbortInternal()
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 
+
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-05-08 16:20:15
+log-type: FlowDesign_SaveFlow
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: 正在中止线程。
+ex-data: 
+ex-source: mscorlib
+ex-stack-trace:    在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.End()
+   在 FlowDesign_SaveFlow.Page_Load(Object sender, EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\FlowDesign\SaveFlow.aspx.cs:行号 27
+ex-target-site: Void AbortInternal()
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 
+
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-05-08 16:34:41
+log-type: FlowDesign_SaveFlow
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: 正在中止线程。
+ex-data: 
+ex-source: mscorlib
+ex-stack-trace:    在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.End()
+   在 FlowDesign_SaveFlow.Page_Load(Object sender, EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\FlowDesign\SaveFlow.aspx.cs:行号 27
+ex-target-site: Void AbortInternal()
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 
+
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-05-08 17:00:54
+log-type: 
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: Access Denied
+ex-data: 
+ex-source: App_Code.k3sgnekl
+ex-stack-trace:    在 BasePage.GetCurrentUserInfo() 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 91
+   在 BasePage.OnLoad(EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 155
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ex-target-site: SimpleFlow.Entity.SysUserInfo GetCurrentUserInfo()
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 
+
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-05-08 17:01:12
+log-type: FlowDesign_SaveFlow
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: 正在中止线程。
+ex-data: 
+ex-source: mscorlib
+ex-stack-trace:    在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.End()
+   在 FlowDesign_SaveFlow.Page_Load(Object sender, EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\FlowDesign\SaveFlow.aspx.cs:行号 27
+ex-target-site: Void AbortInternal()
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 
+
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-05-08 17:01:42
+log-type: FlowDesign_SaveFlow
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: 正在中止线程。
+ex-data: 
+ex-source: mscorlib
+ex-stack-trace:    在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.End()
+   在 FlowDesign_SaveFlow.Page_Load(Object sender, EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\FlowDesign\SaveFlow.aspx.cs:行号 27
+ex-target-site: Void AbortInternal()
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 
+
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-05-08 21:41:46
+log-type: 
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: Access Denied
+ex-data: 
+ex-source: App_Code.kvt4ldon
+ex-stack-trace:    在 BasePage.GetCurrentUserInfo() 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 91
+   在 BasePage.OnLoad(EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 155
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ex-target-site: SimpleFlow.Entity.SysUserInfo GetCurrentUserInfo()
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 
+
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-05-08 21:42:29
+log-type: 0402865
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: 列“participant_id”不属于表 。
+ex-data: 
+ex-source: System.Data
+ex-stack-trace:    在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.IsNull(String columnName)
+   在 SimpleFlow.Entity.ActiveInfoHelper.FillEntityByRow(ActiveInfo entity, DataRow row) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.Entity\ActiveInfoHelper.cs:行号 247
+   在 SimpleFlow.Entity.ActiveInfoHelper.Row2Entity(DataRow row) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.Entity\ActiveInfoHelper.cs:行号 272
+   在 SimpleFlow.DBFramework.SQLServer.EntityHelper`1.DataTable2List(DataTable data) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DBFramework\SQLServer\GenericEntityHelper.cs:行号 45
+   在 SimpleFlow.DBFramework.SQLServer.SqlHelper.GetListBySql[T](String connection_string, String sql, SqlParameter[] param_list) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DBFramework\SQLServer\SqlHelper4Entity.cs:行号 338
+   在 SimpleFlow.DBFramework.SQLServer.SqlHelper.QueryTable[T](String connection_string, ColumnFilterList filter_list) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DBFramework\SQLServer\SqlHelper4Entity.cs:行号 363
+   在 SimpleFlow.DataAccess.ActiveDataAccess.GetAll(Int32 formId) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DataAccess\Active.cs:行号 21
+   在 SimpleFlow.BusinessRules.Form..ctor(Int32 _FormId) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.BusinessRules\Form.cs:行号 75
+   在 SimpleFlow.BusinessFacade.ParseParticipantBiz..ctor(Int32 formId, Int32 formNo) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.BusinessFacade\ParseParticipantBiz.cs:行号 20
+   在 SimpleFlow.BusinessFacade.EngineBiz.ApplyForm(Int32 formId, Int32 formNo, String applyerId) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.BusinessFacade\EngineBiz.cs:行号 21
+   在 TestApply.ApplyForm(SysUserInfo user, Int32 formNo) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\TestApply.aspx.cs:行号 84
+   在 TestApply.Apply_Click(Object sender, EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\TestApply.aspx.cs:行号 31
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ex-target-site: System.Data.DataColumn GetDataColumn(System.String)
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 
+
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-05-08 21:43:41
+log-type: 0402865
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: 列“participant_id”不属于表 。
+ex-data: 
+ex-source: System.Data
+ex-stack-trace:    在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.IsNull(String columnName)
+   在 SimpleFlow.Entity.ActiveInfoHelper.FillEntityByRow(ActiveInfo entity, DataRow row) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.Entity\ActiveInfoHelper.cs:行号 247
+   在 SimpleFlow.Entity.ActiveInfoHelper.Row2Entity(DataRow row) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.Entity\ActiveInfoHelper.cs:行号 272
+   在 SimpleFlow.DBFramework.SQLServer.EntityHelper`1.DataTable2List(DataTable data) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DBFramework\SQLServer\GenericEntityHelper.cs:行号 45
+   在 SimpleFlow.DBFramework.SQLServer.SqlHelper.GetListBySql[T](String connection_string, String sql, SqlParameter[] param_list) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DBFramework\SQLServer\SqlHelper4Entity.cs:行号 338
+   在 SimpleFlow.DBFramework.SQLServer.SqlHelper.QueryTable[T](String connection_string, ColumnFilterList filter_list) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DBFramework\SQLServer\SqlHelper4Entity.cs:行号 363
+   在 SimpleFlow.DataAccess.ActiveDataAccess.GetAll(Int32 formId) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DataAccess\Active.cs:行号 21
+   在 SimpleFlow.BusinessRules.Form..ctor(Int32 _FormId) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.BusinessRules\Form.cs:行号 75
+   在 SimpleFlow.BusinessFacade.ParseParticipantBiz..ctor(Int32 formId, Int32 formNo) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.BusinessFacade\ParseParticipantBiz.cs:行号 20
+   在 SimpleFlow.BusinessFacade.EngineBiz.ApplyForm(Int32 formId, Int32 formNo, String applyerId) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.BusinessFacade\EngineBiz.cs:行号 21
+   在 TestApply.ApplyForm(SysUserInfo user, Int32 formNo) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\TestApply.aspx.cs:行号 84
+   在 TestApply.Apply_Click(Object sender, EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\TestApply.aspx.cs:行号 31
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ex-target-site: System.Data.DataColumn GetDataColumn(System.String)
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 
+
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-05-08 21:44:33
+log-type: 0402865
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: 列“participant_id”不属于表 。
+ex-data: 
+ex-source: System.Data
+ex-stack-trace:    在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.IsNull(String columnName)
+   在 SimpleFlow.Entity.ActiveInfoHelper.FillEntityByRow(ActiveInfo entity, DataRow row) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.Entity\ActiveInfoHelper.cs:行号 247
+   在 SimpleFlow.Entity.ActiveInfoHelper.Row2Entity(DataRow row) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.Entity\ActiveInfoHelper.cs:行号 272
+   在 SimpleFlow.DBFramework.SQLServer.EntityHelper`1.DataTable2List(DataTable data) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DBFramework\SQLServer\GenericEntityHelper.cs:行号 45
+   在 SimpleFlow.DBFramework.SQLServer.SqlHelper.GetListBySql[T](String connection_string, String sql, SqlParameter[] param_list) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DBFramework\SQLServer\SqlHelper4Entity.cs:行号 338
+   在 SimpleFlow.DBFramework.SQLServer.SqlHelper.QueryTable[T](String connection_string, ColumnFilterList filter_list) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DBFramework\SQLServer\SqlHelper4Entity.cs:行号 363
+   在 SimpleFlow.DataAccess.ActiveDataAccess.GetAll(Int32 formId) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DataAccess\Active.cs:行号 21
+   在 SimpleFlow.BusinessRules.Form..ctor(Int32 _FormId) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.BusinessRules\Form.cs:行号 75
+   在 SimpleFlow.BusinessFacade.ParseParticipantBiz..ctor(Int32 formId, Int32 formNo) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.BusinessFacade\ParseParticipantBiz.cs:行号 20
+   在 SimpleFlow.BusinessFacade.EngineBiz.ApplyForm(Int32 formId, Int32 formNo, String applyerId) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.BusinessFacade\EngineBiz.cs:行号 21
+   在 TestApply.ApplyForm(SysUserInfo user, Int32 formNo) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\TestApply.aspx.cs:行号 84
+   在 TestApply.Apply_Click(Object sender, EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\TestApply.aspx.cs:行号 31
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ex-target-site: System.Data.DataColumn GetDataColumn(System.String)
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 
+
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-05-08 21:46:00
+log-type: 0402865
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: 列“participant_id”不属于表 。
+ex-data: 
+ex-source: System.Data
+ex-stack-trace:    在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.IsNull(String columnName)
+   在 SimpleFlow.Entity.ActiveInfoHelper.FillEntityByRow(ActiveInfo entity, DataRow row) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.Entity\ActiveInfoHelper.cs:行号 247
+   在 SimpleFlow.Entity.ActiveInfoHelper.Row2Entity(DataRow row) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.Entity\ActiveInfoHelper.cs:行号 272
+   在 SimpleFlow.DBFramework.SQLServer.EntityHelper`1.DataTable2List(DataTable data) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DBFramework\SQLServer\GenericEntityHelper.cs:行号 45
+   在 SimpleFlow.DBFramework.SQLServer.SqlHelper.GetListBySql[T](String connection_string, String sql, SqlParameter[] param_list) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DBFramework\SQLServer\SqlHelper4Entity.cs:行号 338
+   在 SimpleFlow.DBFramework.SQLServer.SqlHelper.QueryTable[T](String connection_string, ColumnFilterList filter_list) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DBFramework\SQLServer\SqlHelper4Entity.cs:行号 363
+   在 SimpleFlow.DataAccess.ActiveDataAccess.GetAll(Int32 formId) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DataAccess\Active.cs:行号 21
+   在 SimpleFlow.BusinessRules.Form..ctor(Int32 _FormId) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.BusinessRules\Form.cs:行号 75
+   在 SimpleFlow.BusinessFacade.ParseParticipantBiz..ctor(Int32 formId, Int32 formNo) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.BusinessFacade\ParseParticipantBiz.cs:行号 20
+   在 SimpleFlow.BusinessFacade.EngineBiz.ApplyForm(Int32 formId, Int32 formNo, String applyerId) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.BusinessFacade\EngineBiz.cs:行号 21
+   在 TestApply.ApplyForm(SysUserInfo user, Int32 formNo) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\TestApply.aspx.cs:行号 84
+   在 TestApply.Apply_Click(Object sender, EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\TestApply.aspx.cs:行号 31
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ex-target-site: System.Data.DataColumn GetDataColumn(System.String)
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 
+
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-05-08 21:46:32
+log-type: 0402865
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: 列“participant_id”不属于表 。
+ex-data: 
+ex-source: System.Data
+ex-stack-trace:    在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.IsNull(String columnName)
+   在 SimpleFlow.Entity.ActiveInfoHelper.FillEntityByRow(ActiveInfo entity, DataRow row) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.Entity\ActiveInfoHelper.cs:行号 247
+   在 SimpleFlow.Entity.ActiveInfoHelper.Row2Entity(DataRow row) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.Entity\ActiveInfoHelper.cs:行号 272
+   在 SimpleFlow.DBFramework.SQLServer.EntityHelper`1.DataTable2List(DataTable data) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DBFramework\SQLServer\GenericEntityHelper.cs:行号 45
+   在 SimpleFlow.DBFramework.SQLServer.SqlHelper.GetListBySql[T](String connection_string, String sql, SqlParameter[] param_list) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DBFramework\SQLServer\SqlHelper4Entity.cs:行号 338
+   在 SimpleFlow.DBFramework.SQLServer.SqlHelper.QueryTable[T](String connection_string, ColumnFilterList filter_list) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DBFramework\SQLServer\SqlHelper4Entity.cs:行号 363
+   在 SimpleFlow.DataAccess.ActiveDataAccess.GetAll(Int32 formId) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DataAccess\Active.cs:行号 21
+   在 SimpleFlow.BusinessRules.Form..ctor(Int32 _FormId) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.BusinessRules\Form.cs:行号 75
+   在 SimpleFlow.BusinessFacade.ParseParticipantBiz..ctor(Int32 formId, Int32 formNo) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.BusinessFacade\ParseParticipantBiz.cs:行号 20
+   在 SimpleFlow.BusinessFacade.EngineBiz.ApplyForm(Int32 formId, Int32 formNo, String applyerId) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.BusinessFacade\EngineBiz.cs:行号 21
+   在 TestApply.ApplyForm(SysUserInfo user, Int32 formNo) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\TestApply.aspx.cs:行号 84
+   在 TestApply.Apply_Click(Object sender, EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\TestApply.aspx.cs:行号 31
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ex-target-site: System.Data.DataColumn GetDataColumn(System.String)
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 
+
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-05-08 21:47:21
+log-type: 0402865
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: 列“participant_id”不属于表 。
+ex-data: 
+ex-source: System.Data
+ex-stack-trace:    在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.IsNull(String columnName)
+   在 SimpleFlow.Entity.ActiveInfoHelper.FillEntityByRow(ActiveInfo entity, DataRow row) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.Entity\ActiveInfoHelper.cs:行号 247
+   在 SimpleFlow.Entity.ActiveInfoHelper.Row2Entity(DataRow row) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.Entity\ActiveInfoHelper.cs:行号 272
+   在 SimpleFlow.DBFramework.SQLServer.EntityHelper`1.DataTable2List(DataTable data) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DBFramework\SQLServer\GenericEntityHelper.cs:行号 45
+   在 SimpleFlow.DBFramework.SQLServer.SqlHelper.GetListBySql[T](String connection_string, String sql, SqlParameter[] param_list) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DBFramework\SQLServer\SqlHelper4Entity.cs:行号 338
+   在 SimpleFlow.DBFramework.SQLServer.SqlHelper.QueryTable[T](String connection_string, ColumnFilterList filter_list) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DBFramework\SQLServer\SqlHelper4Entity.cs:行号 363
+   在 SimpleFlow.DataAccess.ActiveDataAccess.GetAll(Int32 formId) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DataAccess\Active.cs:行号 21
+   在 SimpleFlow.BusinessRules.Form..ctor(Int32 _FormId) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.BusinessRules\Form.cs:行号 75
+   在 SimpleFlow.BusinessFacade.ParseParticipantBiz..ctor(Int32 formId, Int32 formNo) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.BusinessFacade\ParseParticipantBiz.cs:行号 20
+   在 SimpleFlow.BusinessFacade.EngineBiz.ApplyForm(Int32 formId, Int32 formNo, String applyerId) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.BusinessFacade\EngineBiz.cs:行号 21
+   在 TestApply.ApplyForm(SysUserInfo user, Int32 formNo) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\TestApply.aspx.cs:行号 84
+   在 TestApply.Apply_Click(Object sender, EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\TestApply.aspx.cs:行号 31
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ex-target-site: System.Data.DataColumn GetDataColumn(System.String)
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 
+
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-05-08 21:47:50
+log-type: 0402865
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: 列“participant_id”不属于表 。
+ex-data: 
+ex-source: System.Data
+ex-stack-trace:    在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.IsNull(String columnName)
+   在 SimpleFlow.Entity.ActiveInfoHelper.FillEntityByRow(ActiveInfo entity, DataRow row) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.Entity\ActiveInfoHelper.cs:行号 247
+   在 SimpleFlow.Entity.ActiveInfoHelper.Row2Entity(DataRow row) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.Entity\ActiveInfoHelper.cs:行号 272
+   在 SimpleFlow.DBFramework.SQLServer.EntityHelper`1.DataTable2List(DataTable data) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DBFramework\SQLServer\GenericEntityHelper.cs:行号 45
+   在 SimpleFlow.DBFramework.SQLServer.SqlHelper.GetListBySql[T](String connection_string, String sql, SqlParameter[] param_list) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DBFramework\SQLServer\SqlHelper4Entity.cs:行号 338
+   在 SimpleFlow.DBFramework.SQLServer.SqlHelper.QueryTable[T](String connection_string, ColumnFilterList filter_list) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DBFramework\SQLServer\SqlHelper4Entity.cs:行号 363
+   在 SimpleFlow.DataAccess.ActiveDataAccess.GetAll(Int32 formId) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.DataAccess\Active.cs:行号 21
+   在 SimpleFlow.BusinessRules.Form..ctor(Int32 _FormId) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.BusinessRules\Form.cs:行号 75
+   在 SimpleFlow.BusinessFacade.ParseParticipantBiz..ctor(Int32 formId, Int32 formNo) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.BusinessFacade\ParseParticipantBiz.cs:行号 20
+   在 SimpleFlow.BusinessFacade.EngineBiz.ApplyForm(Int32 formId, Int32 formNo, String applyerId) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\SimpleFlow.BusinessFacade\EngineBiz.cs:行号 21
+   在 TestApply.ApplyForm(SysUserInfo user, Int32 formNo) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\TestApply.aspx.cs:行号 84
+   在 TestApply.Apply_Click(Object sender, EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\TestApply.aspx.cs:行号 31
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ex-target-site: System.Data.DataColumn GetDataColumn(System.String)
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 
+
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-05-08 21:51:32
+log-type: 
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: Access Denied
+ex-data: 
+ex-source: App_Code.d8lz6fia
+ex-stack-trace:    在 BasePage.GetCurrentUserInfo() 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 91
+   在 BasePage.OnLoad(EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 155
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ex-target-site: SimpleFlow.Entity.SysUserInfo GetCurrentUserInfo()
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 
+
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+date-time: 2011-05-08 22:00:07
+log-type: 
+user-id: 
+extra-message: 
+error-url: 
+http-context: 
+ex-message: Access Denied
+ex-data: 
+ex-source: App_Code.s6q2ub3v
+ex-stack-trace:    在 BasePage.GetCurrentUserInfo() 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 91
+   在 BasePage.OnLoad(EventArgs e) 位置 e:\My Documents\Visual Studio 2008\Projects\SimpleFlow\Web\App_Code\BasePage.cs:行号 155
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ex-target-site: SimpleFlow.Entity.SysUserInfo GetCurrentUserInfo()
+inner-message: 
+inner-data: 
+inner-source: 
+inner-stack-trace: 
+inner-target-site: 

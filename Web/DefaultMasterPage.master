@@ -1,0 +1,80 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="DefaultMasterPage.master.cs" Inherits="GDMSNew.Presentation.DefaultMasterPage"  %>
+<%@ Register Src="Controls/Menu.ascx" TagName="Menu" TagPrefix="uc3" %>
+<%@ Register Src="Controls/Footer.ascx" TagName="Footer" TagPrefix="uc2" %>
+<%@ Register Src="Controls/Header.ascx" TagName="Header" TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    
+    <title>Corp. Comm. Information Portal</title>
+    <link id="link1" runat="server" type="text/css" rel="stylesheet" href="~/Styles/BaseStyle.css"  />
+    <script language="javascript" type="text/javascript" src="Scripts/BasicUtilityControl.js"></script>
+    <script language="javascript" type="text/javascript" src="Scripts/FileUpload.js"></script>
+    <script language="javascript" type="text/javascript" src="Scripts/jquery-1.2.3.pack.js"></script>
+    <script language="javascript" type="text/javascript" src="ControlLibraryScripts/TreeView.js" ></script>
+    
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="Scriptmanager1" runat="server"/>
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" >
+        <tr>
+            <td valign="middle" style="padding-left:20px; width:50%; font-size:16pt; font-weight:bold" 
+                class="HomePageTitle" bgcolor="#00638e">
+                <asp:Label ID="LabelBusinssSystemName" runat="server" ForeColor="white" Font-Size="X-Large" >GDMS</asp:Label>
+                </td>
+            <td align="right" class="HomePageTitle" style="width:50%; padding-right:20px;" bgcolor="#00638e">
+            <asp:Image ID="ImageCompanyName" runat="server" ImageUrl="~/Images/QTYPE_BW_REV.jpg" /></td>
+        </tr>
+        <tr>
+            <td colspan="2" >
+            <uc1:Header ID="Header1" runat="server" /></td>
+        </tr>
+    </table>
+    
+    
+    <div style="vertical-align:top">
+        <table cellpadding="0" cellspacing="0" border="0" style="width:100%">
+            <tr>
+                <td style="height:100%" valign="top"><uc3:Menu ID="Menu1" runat="server" /></td>
+                <td style="width:100%" valign="top">
+                
+                    <table style="width:100%" >
+                        <tr>
+                            <td style="width:45px"></td>
+                            <td> 
+                                <asp:Repeater ID="Repeater1" runat="server">
+                                <ItemTemplate>                                
+                                    <asp:Label ID="Label_SiteMapNode" runat="server"
+                                     CssClass="Label_SiteMapNode"><%#  Server.HtmlEncode( (string)DataBinder.Eval(Container.DataItem, "Text")) %></asp:Label>
+                                </ItemTemplate>
+                                <SeparatorTemplate> 
+                                <asp:Label ID="Label_SiteMapSeparator" runat="server"
+                                     CssClass="Label_SiteMapSeparator">&nbsp; <%#  Server.HtmlEncode(">") %> &nbsp;</asp:Label>                                    
+                                </SeparatorTemplate>
+                                </asp:Repeater>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="height: 100%; padding-top: 20px; width:45px" valign="top">
+                                &nbsp;</td>
+                            <td style="height: 680px; padding-top: 20px; padding-right:30px" valign="top">
+                                <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+                                </asp:contentplaceholder>
+                            </td>
+                        </tr>
+                    </table>                    
+                </td>
+            </tr>
+        </table>
+        
+    </div>  
+    
+    <div>
+        <uc2:Footer id="Footer1" runat="server"></uc2:Footer>
+    </div>    
+    </form>
+</body>
+</html>

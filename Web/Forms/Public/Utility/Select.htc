@@ -1,0 +1,46 @@
+<PUBLIC:COMPONENT id="bhvMaxlength" urn="maf:Select">
+<PUBLIC:ATTACH event="onkeypress" handler="doKeypress" />
+<SCRIPT language="JScript">
+var sKey = "";
+var iLastTime = Date.parse(Date());
+var iTimeLimit = 1000;
+
+function doKeypress()
+{
+ 	var oSel = window.event.srcElement;
+
+ 	if (window.event.keyCode == 13)
+ 	{
+ 		oSel.onchange();
+ 		return;
+ 	}
+ 	
+	var iNowTime=Date.parse(Date());
+	if((iNowTime - iLastTime) > iTimeLimit)	{ sKey = ""; }
+	iLastTime = iNowTime;
+
+	sKey += String.fromCharCode(window.event.keyCode);
+	sKey = sKey.toLowerCase();
+
+	var sOpt;
+	var iPos;
+	var lngLength = oSel.options.length;
+	for(i=0; i<lngLength; i++) {
+	   	if (oSel.options[i].selected == true){
+	   		oSel.options[i].selected = false;
+	   	}
+	}
+
+	for(i=0; i<lngLength; i++) {
+	  	sOpt = oSel.options[i].text;
+	  	sOpt = sOpt.toLowerCase();
+	  	iPos = sOpt.indexOf(sKey);
+	  	if (iPos == 0) {
+	   		oSel.options[i].selected = true;
+	   		window.event.returnValue = false;
+	   		return;
+	  	}
+	}
+}
+</SCRIPT>
+</PUBLIC:COMPONENT>

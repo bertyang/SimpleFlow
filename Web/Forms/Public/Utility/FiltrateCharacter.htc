@@ -1,0 +1,28 @@
+<PUBLIC:COMPONENT id="bhvMaxlength" urn="maf:Paste">
+<PUBLIC:ATTACH event="onkeypress"handler="doKeypress" />
+<PUBLIC:ATTACH event="onpaste" handler="doPaste" />
+<SCRIPT language="JScript">
+function doKeypress() //«Ì½ªÁä½L¿é¤J¡G < > 
+{
+	var intCode = event.keyCode;
+	if (window.event.shiftKey) 
+	{
+		if(intCode==60 || intCode==62)
+		{
+			event.keyCode=0
+		}
+	}
+}
+function doPaste() //«Ì½ªÖß¶KªO¤¤¦r²Å¡G < > 
+{
+	event.returnValue = false
+	var oTR = element.document.selection.createRange()
+	re = /</g
+	var sData = window.clipboardData.getData("Text");
+	sData = sData.replace(re, "")
+	re = />/g
+	sData = sData.replace(re, "")
+	oTR.text = sData;
+}
+</SCRIPT>
+</PUBLIC:COMPONENT>
